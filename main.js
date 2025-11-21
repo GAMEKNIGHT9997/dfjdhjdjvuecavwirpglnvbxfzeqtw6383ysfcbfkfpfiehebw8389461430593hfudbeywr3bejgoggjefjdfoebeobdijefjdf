@@ -1,1 +1,16 @@
-const _0x1db188=_0x76f5;function _0x76f5(_0x4e1dcb,_0x31f5b0){const _0x30abad=_0x30ab();return _0x76f5=function(_0x76f5cb,_0x4def5c){_0x76f5cb=_0x76f5cb-0x76;let _0x1b0f8a=_0x30abad[_0x76f5cb];return _0x1b0f8a;},_0x76f5(_0x4e1dcb,_0x31f5b0);}(function(_0x3ffee7,_0x2fb39a){const _0x164bb8=_0x76f5,_0x1dcd7f=_0x3ffee7();while(!![]){try{const _0x3efbf8=-parseInt(_0x164bb8(0x86))/0x1+-parseInt(_0x164bb8(0x7b))/0x2*(-parseInt(_0x164bb8(0x76))/0x3)+parseInt(_0x164bb8(0x79))/0x4*(parseInt(_0x164bb8(0x7d))/0x5)+parseInt(_0x164bb8(0x82))/0x6*(parseInt(_0x164bb8(0x88))/0x7)+-parseInt(_0x164bb8(0x85))/0x8*(-parseInt(_0x164bb8(0x78))/0x9)+parseInt(_0x164bb8(0x7e))/0xa*(-parseInt(_0x164bb8(0x7c))/0xb)+-parseInt(_0x164bb8(0x84))/0xc;if(_0x3efbf8===_0x2fb39a)break;else _0x1dcd7f['push'](_0x1dcd7f['shift']());}catch(_0x2b8dd5){_0x1dcd7f['push'](_0x1dcd7f['shift']());}}}(_0x30ab,0x7d184));function _0x30ab(){const _0xa19b4b=['location','1550HhVGNM','737bitSmr','6665BmWDvb','124070wJXyiE','block','style','display','6kRGGrT','XMAS20dfudjie5ehjfdf','2890176qIcllv','2303688gjYZuH','282153WjCcdC','substring','656131VYVqYW','1068ZwDmMs','hash','18SFBLcb','2764cUvVrS'];_0x30ab=function(){return _0xa19b4b;};return _0x30ab();}const scannedKey=window[_0x1db188(0x7a)][_0x1db188(0x77)][_0x1db188(0x87)](0x1);scannedKey===_0x1db188(0x83)?card[_0x1db188(0x80)][_0x1db188(0x81)]=_0x1db188(0x7f):alert('Scan\x20the\x20correct\x20QR\x20to\x20open\x20the\x20card!');
+// Show something so the page isn't blank
+document.body.innerHTML = "Loading…";
+
+// Grab the code from the URL
+const code = window.location.hash.substring(1);
+
+console.log("Scanned code:", code); // helps you debug
+
+// Check it
+if (code === "XMAS20dfudjie5ehjfdf") {
+	document.body.innerHTML = "Unlocked! Starting…";
+	// your game start here
+	// game.start();
+} else {
+	document.body.innerHTML = "Scan the QR code to unlock!";
+}
